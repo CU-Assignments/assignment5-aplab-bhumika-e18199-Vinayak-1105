@@ -1,14 +1,4 @@
-//Runtime: 40 ms, faster than 12.32% of C++ online submissions for Lowest Common Ancestor of a Binary Tree.
-//Memory Usage: 15.9 MB, less than 100.00% of C++ online submissions for Lowest Common Ancestor of a Binary Tree.
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
+
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
